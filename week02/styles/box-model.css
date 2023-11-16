@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+
+main{
+	font-family: 'playfair display', Helvetica, sans-serif;
+}
+
 .callout {
 	width: 400px;
 	margin: 10px;
