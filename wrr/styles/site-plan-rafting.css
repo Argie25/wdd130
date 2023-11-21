@@ -1,17 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Roboto:wght@100&display=swap');
 :root{
-    --primary-color: #3333ff;
-    --secondary-color: #7ba428;
-    --accent1-color: #e08e00;
-    --accent1-color: #f17ec7;
+    --primary-color: #010B13;
+    --secondary-color: #0000B8;
+    --accent1-color: #FFCC33;
+    --accent2-color: #20B2AA;
 
     --heading-font: 'fair play', serif;
     --paragraph-font: roboto, serif;
 
-    --nav-background-color: #3333ff;
-    --nav-link-color: #7ba428;
-    --nav-hover-link-color: #e08e00;
-    --nav-hover-background-color: #f17ec7S;
+    --nav-background-color: #FFCC33;
+    --nav-link-color: #0000B8;
+    --nav-hover-link-color: #20B2AA;
+    --nav-hover-background-color: #010B13;
 }
 
 body {
