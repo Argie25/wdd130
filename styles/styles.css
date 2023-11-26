@@ -11,11 +11,13 @@ h1 {
     color: steelblue;
 }
 main img {
-    width: 150px;
+    width: 170px;
     height: auto;
     border: 1px solid steelblue;
+    margin: 5px;
     padding: 2px;
     box-shadow: 0 0 30pc gray;
+    float: right;
 }
 p {
     padding: 0;
@@ -27,11 +29,6 @@ main {
 
 aside {
     width: 20rem;
-    margin: 1rem;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    padding: 1rem;
-    background-color: #eee;
-    color: #333;
     text-align: center;
 }
 
@@ -44,4 +41,27 @@ footer{
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Class selector */
+
+.box{
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    background-color: #ddd;
+    color: #000;
+}
+
+aside h2{
+    position: absolute;
+    top: 690px;
+    left: 130px;
+    color: white;
 }
