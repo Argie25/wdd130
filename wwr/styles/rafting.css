@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Roboto:wght@100&display=swap');
+:root{
+    --primary-color: #010B13;
+    --secondary-color: #0000B8;
+    --accent1-color: #FFCC33;
+    --accent2-color: #20B2AA;
+
+    --heading-font: 'fair play', serif;
+    --paragraph-font: roboto, serif;
+
+    --nav-background-color: #FFCC33;
+    --nav-link-color: #0000B8;
+    --nav-hover-link-color: #20B2AA;
+    --nav-hover-background-color: #010B13;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+p {
+    font-family: var(--paragraph-font), sans-serif;
+    color: var(--primary-color);
+}
+h1, h2, h3 {
+    font-family: var(--heading-font), sans-serif;
+    color: var(--primary-color);
+}
+
+a {
+    text-decoration: none;
+}
+
+* {
+    max-width : 1200px;
+    margin : 0 auto;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute;
+    font-family: var(--heading-font);
+    right: 0;
+    left: 0;
+    text-align: center;
+    top: 25px; 
+    color: var(--primary-color);  
+    padding: 10px;
+    margin: auto;
+    background-color : rgb(255, 255, 255, 0.5);
+}
+.hero article p {
+    color: var(--primary-color);
+    font-family: var(--paragraph-font);
+    font-size: 1.2rem;
+}
+
+.hero article{
+    position : absolute;
+    top : 230px;
+    right : 0;
+    left : 0;
+    width : 80%;
+    padding : 10px;
+    margin : 0 auto;
+    background-color : rgb(255, 255, 255, 0.5);
+    color : white;
+}
+
+.hero article img {
+    width : 250px;
+    height : auto;
+    float : right;
+    }
+    
+.sociallinks img{
+    width: 20px;
+    height: 20px;
+}
