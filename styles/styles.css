@@ -1,11 +1,16 @@
 nav {
     background-color: steelblue;
     padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 nav a {
+    display: block;
     color: white;
     display: block;
     padding: 20px;
+    text-decoration: none;
 }
 h1 {
     color: steelblue;
@@ -23,12 +28,12 @@ p {
     padding: 0;
 }
 
-main {
-    max-width: 840px;
+aside p {
+    text-align: left;
 }
 
 aside {
-    width: 20rem;
+    /* width: 20rem; */
     text-align: center;
     position: relative;
 }
@@ -65,4 +70,30 @@ aside h2{
     top: 15px;
     left: 115px;
     color: white;
+}
+
+header, .grid, footer{
+    width: 840px;
+    margin: 0 auto;
+}
+
+h1 {
+    border-bottom: 1px solid steelblue;
+}
+
+.grid {
+    display: grid;
+    align-items: center;
+}
+
+main {
+    grid-column: 2/3;
+    margin: 1rem;
+}
+
+aside {
+    width: 20rem;
+    position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
