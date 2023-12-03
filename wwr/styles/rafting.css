@@ -93,15 +93,15 @@ header {
     align-items: center;
     background-color: var(--accent2-color);
     margin: 5px 0px;
-
 }
 
 header img {
     grid-column: 1/2;
 }
 
-nav {
+header nav {
     grid-column: 2/4;
+    display: flex;
 }
 
 .history {
@@ -170,6 +170,7 @@ footer p {
 .sociallinks {
     grid-column: 4/6;
     grid-row: 2/3;
+    display: flex;
 }
 
 footer a {
