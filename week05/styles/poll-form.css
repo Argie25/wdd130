@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Roboto:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: roboto;
+    font-size: 1.2em;
+    color: black;
+    background-color: beige;
+}
+
+header, h1 {
+    font-family: "play fair";
+
+}
+
+form {
+    width: 50%;
+    margin: o auto;
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 0.5 rem;
+    background-color: antiquewhite;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: 5px;
+}
+
+legend {
+    font-family: "play fair";
+    color: blue;
+    text-align: center;
+}
+
+label {
+    text-align: center;
+    padding: 1 rem;
+}
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+
+button {
+    margin: 1rem;
+    background-color: navy;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: tomato;
+}
+
+footer {
+    margin: 1rem auto 0;
+    width: 650px;
+    text-align: center;
+    font-size: 0.8rem;
+    color: #777;
+    border-top: 1px solid #ccc;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 5px 50px;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+    margin: 10px 50px;
+}
