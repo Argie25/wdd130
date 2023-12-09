@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <meta name="description" content="This page will include contact information and a contact form which the user can submit to ask questions about the company and its services.">
+    <meta name="author" content="Argie Dela Cruz">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+<body>
+    <header>
+        <img src="images/Logo.png" alt="Branding Logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <div class="company-info">
+            <h1>Company Contact Information</h1>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3027.0297337437596!2d119.93505497521313!3d15.673997679900936!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33940f2f99074def%3A0x7fca1159a89a5d4c!2sUacon%20Barangay%20Hall!5e0!3m2!1sen!2sph!4v1702088979002!5m2!1sen!2sph" width="240" height="173" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <ul>
+                <li>Address: MWFP+RR6, Uacon, Candelaria Town Proper, Candelaria, Zambales</li>
+                <li>Phone Number: 0918-786-7078</li>
+                <li>Email: argiedc888@gmail.com</li>
+            </ul>
+        </div>
+        <section class="employee">
+            <figure>
+                <img src="images/person1.jpg" alt="happy male employee">
+                <figcaption>Manager</figcaption>
+            </figure>
+            <figure>
+                <img src="images/person2.jpg" alt="happy famale employee">
+                <figcaption>Front Desk</figcaption>
+            </figure>
+            <figure>
+                <img src="images/perosn3.jpg" alt="happy employee">
+                <figcaption>Tour Guide</figcaption>
+            </figure>
+        </section>
+
+        <form>
+            <fieldset>
+                <legend>Contact Information</legend>
+                <div class="form-item contact">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name">
+                </div>
+                <div class="form-item contact">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email">
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Inquiry</legend>
+                <p>Choose on of the following</p>
+                <div class="form-item inquiry">
+                    <input type="radio" name="purpose" id="Inquiry" value="inquire">
+                    <label for="Inquiry">General Inquiry</label>
+                    <input type="radio" name="purpose" id="Question" value="Question">
+                    <label for="Question">Reservation Question</label>
+                    <input type="radio" name="purpose" id="Suggestion" value="Suggestion">
+                    <label for="Suggestion">Website Suggestion</label>
+                </div>
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                <div class="form-item contact">
+                    <input type="checkbox" name="newsletter" id="newsletter">
+                    <label for="newsletter">Please subscribe me to the monthly newsletter</label>
+                </div>
+            </fieldset>
+
+            <button type="submit">Submit Information</button>
+        </form>
+    </main>
+    <footer>
+        <p>©2023 | Argie Dela Cruz | Phillipines</p>
+        <nav class="sociallinks">
+            <a href="https://web.facebook.com/messenger/?_rdc=1&_rdr">
+                <img src="images/facebooklogo.png" alt="Facebook">
+            </a>
+            <a href="https://www.instagram.com/?hl=en">
+                <img src="images/instagramlogo.png" alt="Instagram">
+            </a>
+            <a href="https://twitter.com/">
+                <img src="images/twitterlogo.png" alt="twitter">
+            </a>
+        </nav>
+    </footer>
+</body>
+</html>
