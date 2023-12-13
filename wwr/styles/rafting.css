@@ -217,15 +217,24 @@ footer a {
     padding: 10px;
     text-align: center;
 }
+.emp h1 {
+    background-color: var(--nav-background-color);
+    text-align: center;
+}
 
 .employee img {
     width: 180px;
     height: 150px;
     border-radius: 0.5rem;
 }
+/* CONTACT FORM */
 
-form {
-    display: grid;
+.contact-form legend {
+    font-family: var(--heading-font);
+}
+
+.contact-form {
+    box-sizing: border-box;
     justify-content: left;
     background-color: var(--accent2-color);
     margin: 5px 0px;
@@ -240,12 +249,12 @@ fieldset {
 
 .form-item {
     display: grid;
-    align-items: center;
+    margin: 5px 50px;
+    grid-template-columns: 1fr 3fr;
 }
 
-.contact {
-    grid-template-columns: 1fr 3fr;
-    margin: 5px 50px;
+.choose {
+    margin: 0 auto;
 }
 
 .inquiry {
@@ -254,12 +263,16 @@ fieldset {
     text-align: center;
 }
 
-button {
+.contact-form button {
+    display: grid;
     border-radius: 0.5rem;
     width: 500px;
     background-color: var(--nav-background-color);
-    margin: 10px 0px;
+    margin: 0 auto;
+    padding: 10px;
 }
+
+/* CONTACT FORM */
 
 button:hover {
     background-color: var(--nav-link-color);
@@ -338,7 +351,12 @@ button:hover {
     height: 50px;
 }
 
-/* TABLE AREA */
+/* INDEX AREA*/
+
+.home-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
 
 table caption {
     font-family: var(--heading-font);
@@ -365,3 +383,44 @@ thead {
     background-color: var(--accent1-color);
 }
 
+/* NEWSLETTER*/
+
+.newsletter {
+    box-sizing: border-box;
+    border: 1px solid black;
+    width: 960px;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: var(--accent2-color);
+}
+
+.newsletter h1 {
+    text-align: center;
+    padding: 10px;
+}
+.news-info {
+    display: grid;
+}
+
+.newsletter label {
+    width: 300px;
+}
+
+.news-info input {
+    width: 300px;
+}
+.check {
+    text-align: center;
+    padding: 10px;
+    font-size: large;
+}
+
+.newsletter button {
+    display: grid;
+    border-radius: 0.5rem;
+    width: 300px;
+    padding: 10px;
+    background-color: var(--nav-background-color);
+    margin: 0 auto;
+
+}
