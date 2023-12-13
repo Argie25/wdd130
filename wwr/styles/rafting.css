@@ -264,3 +264,104 @@ button {
 button:hover {
     background-color: var(--nav-link-color);
 }
+
+/* Trips Area*/
+
+.trips img {
+    width: 960px;
+    height: 500px;
+    display: block;
+}
+
+.overlay {
+    position: absolute;
+    top: 350px;
+    color: white;
+    background-color: rgb(255, 255, 255, 0.5);
+    text-align: center;
+    right: 0;
+    left: 0;
+    width: 960px;
+
+}
+
+.overlay p {
+    font-size: x-large;
+    font-weight: 400;
+}
+
+.trips a {
+    position: absolute;
+    top: 550px;
+    border-radius: 0.5rem;
+    color: white;
+    background: var(--nav-link-color);
+    text-decoration: none;
+    font-family: var(--heading-font);
+    text-align: center;
+    padding: 15px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    width: 120px;
+}
+
+.promo {
+    text-align: center;
+}
+.promo h1 {
+    font-family: var(--heading-font);
+    font-size: x-large;
+    background-color: var(--accent2-color);
+    height: 20px;
+    padding: 15px;
+    text-align: center;
+}
+.package {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.package-box {
+    border: 1.5px solid black;
+    padding: 2px;
+}
+.package-box figcaption {
+    background-color: var(--accent1-color);
+}
+.promo img {
+    width: 300px;
+    height: 300px;
+}
+
+.promo button {
+    width: 75px;
+    height: 50px;
+}
+
+/* TABLE AREA */
+
+table caption {
+    font-family: var(--heading-font);
+    font-size: x-large;
+    background-color: var(--accent2-color);
+    height: 20px;
+    padding: 15px;
+    text-align: center;
+}
+
+td {
+    width: 960px;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+table button {
+    width: 75px;
+    height: 40px; 
+
+}
+
+thead {
+    background-color: var(--accent1-color);
+}
+
